@@ -1,0 +1,227 @@
+:root{
+    --main-color-dark:#171717;
+    --main-color-light:#EDEDED;
+    --main-color-red:#DA0037;
+    --main-color-darkless:#444444;
+}
+.bg-maincolor{
+    background-color:var(--main-color-dark);
+}
+span.main{
+    color:var(--main-color-red);
+}
+
+.black{
+    background-color: #DA0037;
+}
+.color-red{
+    color:var(--main-color-light)
+
+}
+.btn-me
+{
+    background-color:var(--main-color-dark);
+    color:var(--main-color-light);
+    font-size:1.1em;
+    border:0;
+
+    
+}
+
+.btn-me:hover,
+.btn-me.active{
+    background-color:var(--main-color-red);
+    color:var(--main-color-light);
+
+}
+
+
+/*
+=================================================
+============ NAVBAR =============================
+================================================= */
+
+/*
+=================================================
+===================  log-in =====================
+================================================= */
+
+.log-in{
+    position:absolute;
+    right:0;
+    top:50px;
+    min-width:300px;
+   
+    background-color:var(--main-color-dark);
+    color:var(--main-color-red);
+    color:white;
+    z-index:20;
+    padding:50px 0px;
+    display:none ;
+    
+
+}
+.log-in .content .getout
+{
+    position:absolute;
+    right:0;
+    top:-50px;
+}
+
+.log-in .content h1 {
+    color:var(--main-color-red);
+    text-shadow: 5px var(--main-color-red);
+}
+
+/*
+=================================================
+============ carousel ===========================
+================================================= */
+.gallery{
+    max-height:550px;
+    overflow:hidden;
+    position:relative;
+}
+
+.gallery .carousel img{
+    max-height:550px;
+    
+    
+
+}
+
+.carousel .carousel-caption p{
+    font-size:1.2em
+}
+.carousel .carousel-caption .overlay{
+    background:rgba(0, 0, 0, 0.568);
+    
+    padding:50px 0;
+}
+
+
+
+/*
+=================================================
+============ products   =========================
+================================================= */
+
+.products h1{
+    position: relative;
+    color:var(--main-color-dark)
+}
+.products h1:before{
+    content:"";
+    width:100%;
+    height:5px;
+    background:var(--main-color-red);
+    position:absolute;
+    top:60px;
+    left:0
+}
+.products h1:after{
+    content:"our all";
+    position:absolute;
+    top:40px;
+    
+    left:40%;
+    background:white;
+    font-size:18px;
+    color:var(--main-color-darkless);
+    padding:8px;
+}
+.products .items .item .card-body .btn-me{
+    font-size: 1rem;
+}
+ /* style p */
+
+.products .header-text{
+    color:var(--main-color-darkless);
+    line-height:1.8rem;
+    font-size:1.4rem;
+}
+
+.products .items .card-body p{
+    color:var(--main-color-darkless);
+    font-size:1.1rem;
+    height:110px;
+    padding:5px 0;
+}
+
+
+/* style width images in product */
+.products img{
+    width: 200px !important;
+}
+
+
+.products .item {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(30, 87, 153, 0.2) 0%, rgba(125, 185, 232, 0) 100%);
+    background-repeat: repeat;
+    border-radius:10px;
+    position:relative;
+}
+.products .item .price{
+    position:absolute;
+    top:0px;
+    right:0px;
+    padding:5px;
+    background-color: var(--main-color-red);
+    color:var(--main-color-light);
+    z-index:9
+
+    
+}
+.products .row{
+    padding:4px;
+}
+.row  > div {
+    margin: 4px;    
+}
+/*
+=================================================
+============ foot copyRight  ====================
+================================================= */
+ .foot-copyright{
+     background-color: var(--main-color-dark);
+     color:var(--main-color-light)
+ }
+
+/*
+=================================================
+============ foot1, foot2 =======================
+================================================= */
+.foot1,.foot2{
+    background:black;
+    padding:20px 0;
+}
+
+.foot1 .row >div, .foot2 .row >div {
+   margin:0px 0px;
+   padding:10px 5px;
+    /* background-color:var(--main-color-dark); */
+    color:white;
+   
+
+
+}
+.foot1 i{
+    color:white
+}
+
+
+
+
+
+/*
+=================================================
+============ NAVBAR =============================
+================================================= */
+
+
+/*
+=================================================
+============ NAVBAR =============================
+================================================= */
+

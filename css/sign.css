@@ -1,0 +1,32 @@
+   /* general  */
+.c-error{
+    color:crimson;
+}
+
+
+
+.sign-in{
+    min-height:100vh;
+}
+.sign-in .container form{
+    width:80%;
+}
+.form-control{
+    padding:10px 5px;
+    cursor: pointer;
+    font-size:1.5em
+}
+.label-name{
+    top:-15px;
+    left:10px;
+    background-color: white;
+    color:red
+
+}
+.form-control:hover + .label-name {
+    
+    color:red
+}
+.disabled{
+    cursor:none;
+}

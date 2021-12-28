@@ -1,0 +1,39 @@
+:root{
+    --main-color-dark:#171717;
+    --main-color-light:#EDEDED;
+    --main-color-red:#DA0037;
+    --main-color-darkless:#444444;
+}
+.navbar .form-control{
+    width:auto;
+    
+
+}
+
+
+.carousel .carousel-caption{
+    bottom:30%;
+    
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    color:var(--main-color-red)!important;
+}
+
+.products .row > div{
+    margin:0;
+}
+.col-lg-3, .col-md-4, .col-sm-6, .col-xs-12{
+    padding-left:0;
+    padding-right:0;
+}
+
+@media (max-width: 767.98px) { 
+    .carousel .carousel-caption{
+        bottom:0;
+        
+    } 
+}
+
+
+
